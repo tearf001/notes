@@ -1,0 +1,306 @@
+{
+  "main": {
+    "id": "4531da91f4112d72",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f5087033e3e8589",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "312dd12cd13cc90f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HolyTraits.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "HolyTraits"
+            }
+          },
+          {
+            "id": "ae434880d439e23e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6.性能模式.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "6.性能模式"
+            }
+          },
+          {
+            "id": "a9485f4dce7b86ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "包.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "包"
+            }
+          },
+          {
+            "id": "6a6cb60e2db1d20f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9 其他模式.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "9 其他模式"
+            }
+          },
+          {
+            "id": "82b72a37dee66ece",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10. 反模式.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "10. 反模式"
+            }
+          },
+          {
+            "id": "4ceef63a68ac7701",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11.OOP 面向对象.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "11.OOP 面向对象"
+            }
+          },
+          {
+            "id": "ca5c5b491ba02269",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "表达式.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "表达式"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "946aac0988143d76",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cedb045f17aa461",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "082890cd7e3922ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "391f928d568f804d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "$$",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "9dba8b4f76fdc864",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "82cefba774d11e3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "febd8489d1e9473e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2b5c44af4bb646f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "常见类型.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "常见类型 的反向链接列表"
+            }
+          },
+          {
+            "id": "26b2841aefc8696e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "常见类型.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "常见类型 的出链列表"
+            }
+          },
+          {
+            "id": "35f8bf186ca5abfe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "92c1815e4940ea13",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "11.OOP 面向对象.md"
+              },
+              "icon": "lucide-list",
+              "title": "11.OOP 面向对象 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 314.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "4ceef63a68ac7701",
+  "lastOpenFiles": [
+    "表达式.md",
+    "11.OOP 面向对象.md",
+    "内存模型.md",
+    "多线程.md",
+    "6.性能模式.md",
+    "10. 反模式.md",
+    "类型自动转换.md",
+    "9 其他模式.md",
+    "索引.md",
+    "包.md",
+    "8.鲁棒性原则.md",
+    "attachements/Pasted image 20241218180116.png",
+    "4.宏编程和元编程.md",
+    "环境.md",
+    "命名空间,模块和包.md",
+    "3.设计函数与接口.md",
+    "参数化类型.md",
+    "7.可维护模式.md",
+    "5.代码重用.md",
+    "常见函数或宏实现.md",
+    "HolyTraits.md",
+    "图标HolyTraits.canvas",
+    "分析低代码.md",
+    "MacroTools.md",
+    "技巧.md",
+    "常见类型.md",
+    "内置函数.md",
+    "常见函数或宏的实现.md",
+    "attachements/colorstypes.jl.png",
+    "未命名 1.canvas",
+    "attachements/Pasted image 20241120153605.png",
+    "attachements/Pasted image 20241101180218.png",
+    "attachements/Pasted image 20241030101107.png",
+    "attachements/Pasted image 20241105005824.png",
+    "attachements/Pasted image 20241102013631.png",
+    "attachements/Pasted image 20241101174823.png",
+    "attachements/Pasted image 20241101104546.png",
+    "attachements/Pasted image 20241101161837.png",
+    "attachements"
+  ]
+}

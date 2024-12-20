@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"c7f11ae33b7c8798","type":"file","file":"HolyTraits.md","x":-500,"y":-400,"width":400,"height":400},
+		{"id":"3e0f84e012d2a7a7","type":"text","text":"","x":100,"y":-70,"width":250,"height":70}
+	],
+	"edges":[
+		{"id":"aefa0d45fa9b612b","fromNode":"c7f11ae33b7c8798","fromSide":"right","toNode":"3e0f84e012d2a7a7","toSide":"top"}
+	]
+}

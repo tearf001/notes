@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.idea/
+.env
+.env.example
+.local.*
+*.local
+*.log
+*.secret
+secret.*

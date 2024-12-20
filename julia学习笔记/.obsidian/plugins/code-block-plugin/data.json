@@ -1,0 +1,22 @@
+{
+  "languages": [
+    "xml",
+    "bash",
+    "c",
+    "cpp",
+    "csharp",
+    "markdown",
+    "go",
+    "java",
+    "objectivec",
+    "plaintext",
+    "scss",
+    "shell",
+    "sql",
+    "swift",
+    "yaml",
+    "typescript",
+    "vbnet",
+    "wasm"
+  ]
+}
