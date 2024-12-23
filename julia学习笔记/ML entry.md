@@ -113,6 +113,28 @@ Use code [with caution](https://support.google.com/legal/answer/13505487).
     
 - **formula = Term(response) ~ +(Term.(predictors)...)  
     公式 = Term（response） ~ +（Term.（预测变量）...:** 这行代码创建了一个公式，指定了目标变量和预测变量之间的关系。在 Julia 的 GLM 包中，这种语法用于定义线性模型的形式。 它表示我们假设房价中位数（MedV) 与房间数 (Rm)、税率 (Tax) 和犯罪率 (Crim) 之间存在线性关系。
+```julia
+const SPECIALS = (:+, :&, :*, :~)
+macro support_unprotect(op, sch_types...)
+    sch_types = isempty(sch_types) ? (Schema, FullRank) : sch_types
+    ex = quote end
+    for sch_type in sch_types
+        sub_ex = quote
+            function StatsModels.apply_schema(t::StatsModels.FunctionTerm{typeof($op)},
+                                              sch::$sch_type,
+                                              Mod::Type)
+                args = apply_schema.(t.args, Ref(sch), Mod)
+                apply_schema(t.f(args...), sch, Mod)
+            end
+        end
+        push!(ex.args, sub_ex)
+    end
+    return esc(ex)
+end
+for op in SPECIALS
+	@eval @support_unprotect $op
+end
+```
     
 - **GLM.lm(formula, df)  GLM.lm（公式，df）:** 这行代码使用 GLM 包中的 lm 函数（linear model，线性模型）来拟合数据。 **关键点：这里就是机器学习“学习”的过程。** lm 函数会找到最合适的直线（或者更高维度的超平面）来描述特征和目标变量之间的关系。具体来说，它会计算出每个预测变量的系数，这些系数代表了该变量对房价的影响程度。
     
