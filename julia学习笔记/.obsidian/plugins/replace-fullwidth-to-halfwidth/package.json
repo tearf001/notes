@@ -1,6 +1,6 @@
 {
     "name": "replace-fullwidth-to-halfwidth",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "Replaces specified full-width characters with their half-width counterparts in the current note.",
     "main": "main.js",
     "scripts": {

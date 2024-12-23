@@ -2,8 +2,9 @@
 是一种基于julia分派的设计模式
 
 注意:  julia知识补充
-> 抽象类型也可以做构造函数
-> **没有成员的struct**是 单例`struct`, 可以通过`objectid` 来核实. 以下称 `Truct`
+> 1. 抽象类型也可以做构造函数
+> 2. **没有成员的 struct**是 单例`struct`, 可以通过`objectid` 来核实. 
+> 以下HolyTraits Struct 称`Truct`
 
 ```julia
 abstract type Asset end
@@ -38,12 +39,12 @@ struct Money <: Cash
 end
 
 # trait
-## 1th Trait 定义通常是 abt + Truct (trait Struct)
+## 第一阶段 Trait 定义通常是 Abt + Truct (trait Struct)
 abstract type Liquidity end; # Abt
 struct IsLiquid <: Liquidity end; # Tra
 struct IsIlliquid <: Liquidity end; # Tra
 
-# 2nd Trait的abt构造函数 (参数为具体类型) Abt(::T) => Truct
+# 2nd Trait的Abt构造函数 (参数为具体类型) Abt(::T) => Truct
 Liquidity(::Type{<:Asset}) = IsIlliquid() # global
 Liquidity(::Type{<:Cash}) = IsLiquid()
 Liquidity(::Type{<:Investment}) = IsLiquid()

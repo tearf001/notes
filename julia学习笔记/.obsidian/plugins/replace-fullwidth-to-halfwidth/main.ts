@@ -7,7 +7,8 @@ export default class FullWidthToHalfWidthPlugin extends Plugin {
             name: "Convert Full-width to Half-width",
             editorCallback: async (editor: Editor, view: MarkdownView) => {
                 const text = editor.getValue();
-                let convertedText = this.convertFullWidthToHalfWidth(text);
+                let convertedText = this.removeWindowNewLine(text)
+                convertedText = this.convertFullWidthToHalfWidth(text);
                 convertedText = this.convertJuliaType(convertedText);
                 if (text != convertedText) { // 添加此行，确保只有在内容真正发生更改时才替换
                     const cursor = editor.getCursor();
@@ -20,7 +21,9 @@ export default class FullWidthToHalfWidthPlugin extends Plugin {
             },
         });
     }
-
+    removeWindowNewLine(text: string): string {
+        return text.replace(/\r\n/g, "\n");
+    }
     convertFullWidthToHalfWidth(text: string): string {
         // 定义全角到半角的映射关系
         const fullWidthToHalfWidthMap: Record<string, string> = {
