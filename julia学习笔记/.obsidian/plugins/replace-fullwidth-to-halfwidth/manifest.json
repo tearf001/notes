@@ -1,7 +1,7 @@
 {
     "id": "replace-fullwidth-to-halfwidth",
     "name": "replace-fullwidth-to-halfwidth",
-    "version": "0.2.2",
+    "version": "0.3",
     "minAppVersion": "0.15.0",
     "description": "Replaces specified full-width characters with their half-width counterparts in the current note."
   }

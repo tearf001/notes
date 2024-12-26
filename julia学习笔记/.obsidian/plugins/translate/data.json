@@ -79,7 +79,9 @@
       "version": "1.0.0"
     },
     "google_translate": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "auto_translate": false,
       "auto_translate_interval": 500,
@@ -225,11 +227,13 @@
       "version": "1.1.0"
     },
     "deepl": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "auto_translate": false,
       "auto_translate_interval": 500,
-      "validated": false,
+      "validated": null,
       "available_languages": [
         "bg",
         "cs",
@@ -423,7 +427,9 @@
       "version": "1.0.0"
     },
     "libre_translate": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "host": "",
       "auto_translate": false,
       "auto_translate_interval": 500,
@@ -464,7 +470,9 @@
       "version": "1.0.2"
     },
     "fanyi_baidu": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "app_id": "",
       "auto_translate": false,

@@ -3,6 +3,6 @@
   "code-block-plugin",
   "obsidian-shellcommands",
   "terminal",
-  "replace-fullwidth-to-halfwidth",
-  "translate"
+  "translate",
+  "replace-fullwidth-to-halfwidth"
 ]
