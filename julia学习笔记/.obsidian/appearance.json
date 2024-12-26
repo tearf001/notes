@@ -1,5 +1,6 @@
 {
   "cssTheme": "",
   "theme": "obsidian",
-  "accentColor": "#a79bc5"
+  "accentColor": "#a79bc5",
+  "monospaceFontFamily": "Cascadia Code,Source Code Pro,Lucida Console"
 }
