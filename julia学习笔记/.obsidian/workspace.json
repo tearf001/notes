@@ -164,12 +164,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "线性代数.md",
+                "file": "11.OOP 面向对象.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "线性代数"
+              "title": "11.OOP 面向对象"
             }
           },
           {
@@ -316,7 +316,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 217.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -327,7 +327,8 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-shellcommands:Shell commands: Custom variables": false
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "terminal:Open terminal": false
     }
   },
   "active": "3c2b3cdf7e7d8e19",
@@ -343,7 +344,9 @@
     "5.代码重用.md",
     "11.OOP 面向对象.md",
     "线性代数定律.md",
+    "图标HolyTraits.canvas",
     "线性代数.md",
+    "11.OOP 面向对象.md",
     "ML entry.md",
     "表达式.md",
     "HolyTraits.md",
