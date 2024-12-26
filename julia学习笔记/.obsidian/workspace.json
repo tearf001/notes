@@ -347,6 +347,7 @@
   },
   "active": "e0cc3b4339f66528",
   "lastOpenFiles": [
+    "12.继承与变体.md",
     "表达式.md",
     "11.OOP 面向对象.md",
     "技巧.md",
@@ -374,7 +375,6 @@
     "attachements/Pasted image 20241218180116.png",
     "4.宏编程和元编程.md",
     "环境.md",
-    "3.设计函数与接口.md",
     "图标HolyTraits.canvas",
     "attachements/colorstypes.jl.png",
     "未命名 1.canvas",
