@@ -1,6 +1,6 @@
 {
-  "removeMultipleLine": false,
-  "removeJuliaReplLeading": true,
+  "removeMultipleLine": true,
+  "removeJuliaReplLeading": false,
   "replaces": {
     "\\btest_replace\\b": "test replace successfully"
   },
@@ -30,5 +30,5 @@
     "〉": ">",
     "／": "/"
   },
-  "juliaTypeCheck": true
+  "juliaTypeCheck": false
 }

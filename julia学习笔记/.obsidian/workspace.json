@@ -41,20 +41,6 @@
             }
           },
           {
-            "id": "a9485f4dce7b86ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "包.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "包"
-            }
-          },
-          {
             "id": "6a6cb60e2db1d20f",
             "type": "leaf",
             "pinned": true,
@@ -324,9 +310,19 @@
               "icon": "lucide-list",
               "title": "索引 的大纲"
             }
+          },
+          {
+            "id": "a98448936b5d8755",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
