@@ -5,8 +5,15 @@ encrypted_string = "GI6s7EK3TNRTDWEeqX7GjGn6a9Xm6TTIKCprdYTAvAOwIbJ4PAffj86H/0K2
 try:
     part1, part2, *n = encrypted_string.split("=")
     # 尝试reverse加密
+    print("Part 1:", part1)
+    print("Part 2:", part2)
     decoded_part1 = base64.b64decode(part1).decode('utf-8')
-    decoded_part2 = base64.b64decode(part2[::-1]).decode('utf-8')
+    decoded_part2 = base64.b64decode(part2).decode('utf-8')
+    # 尝试将两个部分的解密结果进行反转
+    reversed_decoded_part1 = decoded_part1[::-1]
+    reversed_decoded_part2 = decoded_part2[::-1]
+    print("Reversed Decoded Part 1:", reversed_decoded_part1)
+    print("Reversed Decoded Part 2:", reversed_decoded_part2)
 
     print("Decoded Part 1:", decoded_part1)
     print("Decoded Part 2:", decoded_part2)

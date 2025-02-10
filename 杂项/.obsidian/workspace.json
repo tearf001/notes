@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "d2aa58df6e6996b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "40b0ae6579ed2132",
+        "type": "tabs",
+        "dimension": 85.2247191011236,
+        "children": [
+          {
+            "id": "601490068d9c3dbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tailwindcss-指令和函数.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tailwindcss-指令和函数"
+            }
+          },
+          {
+            "id": "94baa7832e95f95f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tailwindcss-指令和函数.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tailwindcss-指令和函数"
+            }
+          },
+          {
+            "id": "46cd3fdafc4a117d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tailwindcss-核心和结构.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tailwindcss-核心和结构"
+            },
+            "group": "d74c8f81e3f1e766"
+          },
+          {
+            "id": "63af3e7b39769d24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tailwindcss-指令和函数.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tailwindcss-指令和函数"
+            }
+          },
+          {
+            "id": "0280c95aded70946",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tailwindcss-指令和函数.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tailwindcss-指令和函数"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "84dee915c4d360e7",
+        "type": "tabs",
+        "dimension": 14.775280898876405,
+        "children": [
+          {
+            "id": "77c1c05c80393f3d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tailwindcss-核心和结构.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Tailwindcss-核心和结构 的大纲"
+            },
+            "group": "d74c8f81e3f1e766"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "587e2a85287e460b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f2f29e96664bdcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec928759aa875d24",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "4a21b05fa7ddbe7f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Hover",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "86eccc4ef38c105d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "956331fdddd34d87",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd2cea2378d8efce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d6c30230435dce9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "英语口语和阅读速度提升.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "英语口语和阅读速度提升 的反向链接列表"
+            }
+          },
+          {
+            "id": "7de52f0840146f9a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "英语口语和阅读速度提升.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "英语口语和阅读速度提升 的出链列表"
+            }
+          },
+          {
+            "id": "b6f82b2ddd2a4909",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "3adcd4f8601aa025",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "英语口语和阅读速度提升.md"
+              },
+              "icon": "lucide-list",
+              "title": "英语口语和阅读速度提升 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "63af3e7b39769d24",
+  "lastOpenFiles": [
+    "Tailwindcss-核心和结构.md",
+    "Tailwindcss-指令和函数.md",
+    "[[Tailwindcss-指令和函数]].md",
+    "Tailwindcss-指令和函数/@custom-variant.md",
+    "Tailwindcss-指令和函数",
+    "英语口语和阅读速度提升.md",
+    "().md",
+    "block chain.md",
+    "Pasted image 20250209203313.png",
+    "images/container.png",
+    "images",
+    "欢迎.md"
+  ]
+}

@@ -41,20 +41,6 @@
             }
           },
           {
-            "id": "a9485f4dce7b86ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "包.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "包"
-            }
-          },
-          {
             "id": "6a6cb60e2db1d20f",
             "type": "leaf",
             "pinned": true,
@@ -220,7 +206,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -232,7 +219,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rsa",
+                "query": "登录",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -253,7 +240,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -324,9 +312,19 @@
               "icon": "lucide-list",
               "title": "索引 的大纲"
             }
+          },
+          {
+            "id": "a98448936b5d8755",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -345,7 +343,7 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "082890cd7e3922ed",
+  "active": "391f928d568f804d",
   "lastOpenFiles": [
     "不同的语言处理变性.md",
     "12.继承与变体.md",
