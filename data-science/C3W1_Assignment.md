@@ -1202,3 +1202,9 @@ The first version of the model has a precision of 59.57%. In other words, from 1
 On the other hand, the improved model has a precision of 98.42%! So from 100 emails classified as spam, only around 2 will be actually ham emails. A much more reliable output. 
 
 Congratulations! You have completed the entire assignment and the appendix section! 
+```latex
+\begin{tikzpicture}
+    \draw[->] (-2,0) -- (2,0) node[right]{$x$};
+    \draw[->] (0,-2) -- (0,2) node[above]{$y$};
+    \draw[domain=-1.5:1.5, smooth, variable=\x, blue] plot ({\x}, {\x*\x});
+\end{tikzpicture}
