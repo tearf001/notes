@@ -6,15 +6,54 @@
       {
         "id": "15f47c1ab8c12fd2",
         "type": "tabs",
+        "dimension": 82.14285714285714,
         "children": [
           {
             "id": "d1f15dc47ef9870c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "杂项/自定义样式.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "自定义样式"
+            }
+          },
+          {
+            "id": "e8082505f2fad2f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mermaid语法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mermaid语法"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "35417f5bc49a352f",
+        "type": "tabs",
+        "dimension": 17.857142857142858,
+        "children": [
+          {
+            "id": "c13440a837104c77",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Mermaid语法.md"
+              },
+              "icon": "lucide-list",
+              "title": "Mermaid语法 的大纲"
             }
           }
         ]
@@ -48,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ThemeVariables",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 215.49999618530273
   },
   "right": {
     "id": "24618e1ef6a14f5f",
@@ -156,6 +195,12 @@
   },
   "active": "81e2ec071a3eca91",
   "lastOpenFiles": [
+    "杂项/自定义样式.md",
+    "杂项/Tailwindcss-指令和函数.md",
+    "杂项/Theme Variables.md",
+    "Mermaid语法.md",
+    "杂项/Custom variants.md",
+    "杂项/Tailwindcss-核心和结构.md",
     "data-science/未命名.md",
     "data-science/未命名",
     "data-science/欢迎.md",

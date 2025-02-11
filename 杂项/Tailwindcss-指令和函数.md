@@ -53,7 +53,7 @@ Learn more about automatic content detection in the [detecting classes in sourc
 /* 函数式 */
 @theme { --tab-size-github: 8;}
 @utility tab-* { 
-	tab-size: --value(--tab-size-*); /* Matching theme values 用到了 --value(--theme-key-*)`语法*/	
+	tab-size: --value(--tab-size-*); /* Matching values --value(--key-*)`语法*/	
 	tab-size: --value(integer);      /* bare values 用到了 --value(type} 语法*/
 	tab-size: --value([integer]);    /* 任意 values 用到了 --value([type]) 语法*/
 }
@@ -83,7 +83,7 @@ Learn more about automatic content detection in the [detecting classes in sourc
 	font-size: --value(--text-*, [length]);
 	line-height: --modifier(--leading-*, [length], [*]); /*修饰符: 表示text-*声明时, line-height仅在指明时生成.*/
 }
-/* 分数形式 match utilities like `aspect-square`, `aspect-3/4`, and `aspect-[7/9]`.*/
+/* 分数形式 match utilities like `aspect-square`, `aspect-3/4`.*/
 @utility aspect-* {  aspect-ratio: --value(--aspect-ratio-*, ratio, [ratio]);}
 ```
 
@@ -129,101 +129,99 @@ Learn more about variants in the [hover, focus, and other states documentation]
 			@slot; 
 }}}
 ```
+更多的见[[Custom variants]]深入
 ### @apply
 
 Use the `@apply` directive to inline any existing utility classes into your own custom CSS:
 
-CSS
 
-```
-.select2-dropdown {  @apply rounded-b-lg shadow-md;}.select2-search {  @apply rounded border border-gray-300;}.select2-results__group {  @apply text-lg font-bold text-gray-900;}
+```css
+.select2-dropdown {  
+	@apply rounded-b-lg shadow-md;
+}
+.select2-search {  
+	@apply rounded border border-gray-300;
+}
+.select2-results__group { 
+	@apply text-lg font-bold text-gray-900;
+}
 ```
 
-This is useful when you need to write custom CSS (like to override the styles in a third-party library) but still want to work with your design tokens and use the same syntax you’re used to using in your HTML.
+This is useful when you need to write `custom` CSS (like to override the styles in a third-party library) but `still` want to work with your `design tokens` 
 
 ### @reference
 
-If you want to use `@apply` or `@variant` in the `<style>` block of a Vue or Svelte component, or within CSS modules, you will need to import your theme variables, custom utilities, and custom variants to make those values available in that context.
+If you want to use `@apply` or `@variant` in the `<style>` block of a Vue or Svelte component, or within `CSS modules`, you will need to import your theme variables, custom utilities, and custom variants to make those values available in that context.
 
 To do this without duplicating any CSS in your output, use the `@reference` directive to import your main stylesheet for reference without actually including the styles:
 
-Vue
-
-```
-<template>  <h1>Hello world!</h1></template><style>  @reference "../../app.css";  h1 {    @apply text-2xl font-bold text-red-500;  }</style>
-```
-
-If you’re just using the default theme with no customizations, you can import `tailwindcss` directly:
-
-Vue
-
-```
-<template>  <h1>Hello world!</h1></template><style>  @reference "tailwindcss";  h1 {    @apply text-2xl font-bold text-red-500;  }</style>
+```vue
+<template>  
+	<h1>Hello world!</h1>
+</template>
+<style>  
+	@reference "tailwindcss"; /*引用, 而不是重复导入*/
+	@reference "../../app.css"; /*引用, 而不是重复导入*/	
+	h1 {
+		@apply text-2xl font-bold text-red-500;
+	}
+</style>
 ```
 
 ## [Functions](https://tailwindcss.com/docs/functions-and-directives#functions)
 
-Tailwind provides the following build-time functions to make working with colors and the spacing scale easier.
+build-time functions to make working with colors and the spacing scale easier.
 
 ### --alpha()
 
 Use the `--alpha()` function to adjust the opacity of a color:
 
-Input CSS
-
-```
+```css
 .my-element {  color: --alpha(var(--color-lime-300) / 50%);}
 ```
 
-Compiled CSS
+编译之后
 
-```
-.my-element {  color: color-mix(in oklab, var(--color-lime-300) 50%, transparent);}
+```css
+.my-element {  
+	color: color-mix(in oklab, var(--color-lime-300) 50%, transparent);
+}
 ```
 
 ### --spacing()
 
 Use the `--spacing()` function to generate a spacing value based on your theme:
 
-Input CSS
-
-```
-.my-element {  margin: --spacing(4);}
-```
-
-Compiled CSS
-
-```
-.my-element {  margin: calc(var(--spacing) * 4);}
+```css
+.my-element {  
+	margin: --spacing(4); /* 生成的 calc(var(--spacing) * 4); */
+}
 ```
 
 This can also be useful in arbitrary values, especially in combination with `calc()`:
 
-HTML
-
-```
-<div class="py-[calc(--spacing(4)-1px)]">  <!-- ... --></div>
+```html
+<div class="py-[calc(--spacing(4)-1px)]"> 
+	<!-- ... -->
+</div>
 ```
 
 ## [Compatibility](https://tailwindcss.com/docs/functions-and-directives#compatibility)
 
-The following directives and functions exist solely for compatibility with Tailwind CSS v3.x.
+以下指令和函数仅(solely)用于与 Tailwind CSS v3.x 兼容。
 
 ### @config
 
 Use the `@config` directive to load a legacy JavaScript-based configuration file:
-
-CSS
-
-```
+```css
 @config "../../tailwind.config.js";
 ```
 
-The `corePlugins`, `safelist` and `separator` options from the JavaScript-based config are not supported in v4.0.
+但是 `corePlugins`, `safelist` and `separator` options from the **JavaScript-based** config are not supported in v4.0.
 
 ### @plugin
 
-Use the `@plugin` directive to load a legacy JavaScript-based plugin:
+Use the `@plugin` directive to load a legacy **JavaScript-based** plugin:
 
 CSS
 
@@ -231,16 +229,16 @@ CSS
 @plugin "@tailwindcss/typography";
 ```
 
-The `@plugin` directive accepts either a package name or a local path.
+The `@plugin` directive accepts either a `package name` or a local `path`.
 
-### theme()
+### ~~theme()~~
 
 Use the `theme()` function to access your Tailwind theme values using dot notation:
 
-CSS
-
+```css
+.my-element { 
+	margin: theme(spacing.12);
+}
 ```
-.my-element {  margin: theme(spacing.12);}
-```
 
-This function is deprecated, and we recommend [using CSS theme variables](https://tailwindcss.com/docs/theme#using-your-theme-variables) instead.
+This function is `deprecated`, and we recommend [using CSS theme variables](https://tailwindcss.com/docs/theme#using-your-theme-variables) instead.
