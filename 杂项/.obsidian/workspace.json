@@ -78,6 +78,16 @@
               "icon": "lucide-file",
               "title": "Tailwindcss-指令和函数"
             }
+          },
+          {
+            "id": "8c659bc071461df6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
         "currentTab": 3
@@ -248,14 +258,20 @@
   },
   "active": "63af3e7b39769d24",
   "lastOpenFiles": [
-    "Tailwindcss-核心和结构.md",
+    "playgourd shares.md",
+    "colors.md",
+    "Dark Mode.md",
+    "自定义样式.md",
+    "Theme Variables.md",
+    "Custom variants.md",
     "Tailwindcss-指令和函数.md",
+    "block chain.md",
+    "Tailwindcss-核心和结构.md",
     "[[Tailwindcss-指令和函数]].md",
     "Tailwindcss-指令和函数/@custom-variant.md",
     "Tailwindcss-指令和函数",
     "英语口语和阅读速度提升.md",
     "().md",
-    "block chain.md",
     "Pasted image 20250209203313.png",
     "images/container.png",
     "images",
