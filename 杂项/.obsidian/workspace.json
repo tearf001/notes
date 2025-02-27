@@ -207,13 +207,14 @@
   },
   "active": "51a6c91228b7aa4c",
   "lastOpenFiles": [
+    "h5 advances/框架h5抽象.md",
+    "svelte/typescript.ts",
+    "svelte/源码.md",
     "images/奇怪渲染流程图.png",
     "images/react-生命周期.png",
     "images/performance-track.png",
     "Theme Variables.md",
     "svelte/样式.md",
-    "svelte/源码.md",
-    "h5 advances/框架h5抽象.md",
     "svelte/directives.md",
     "svelte/runes 和 bind.md",
     "Tailwindcss-指令和函数.md",
@@ -249,7 +250,6 @@
     "Pasted image 20250217104759.png",
     "Tailwindcss-指令和函数",
     "Pasted image 20250209203313.png",
-    "images/container.png",
     "images"
   ]
 }
