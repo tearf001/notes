@@ -205,8 +205,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "cda85098d0fa4ad5",
+  "active": "51a6c91228b7aa4c",
   "lastOpenFiles": [
+    "images/奇怪渲染流程图.png",
+    "images/react-生命周期.png",
+    "images/performance-track.png",
+    "Theme Variables.md",
     "svelte/样式.md",
     "svelte/源码.md",
     "h5 advances/框架h5抽象.md",
@@ -243,8 +247,6 @@
     "valibot 源码解析.md",
     "Pasted image 20250217104951.png",
     "Pasted image 20250217104759.png",
-    "aketype 源码解析.md",
-    "flatMorph.md",
     "Tailwindcss-指令和函数",
     "Pasted image 20250209203313.png",
     "images/container.png",
