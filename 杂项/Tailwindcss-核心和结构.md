@@ -18,7 +18,7 @@ Constrained set of Primitive Utilities
 ### 媒体和特性查询
 - breakpoint
 - prefers color theme, reduced-motion, constrast 
-- orientation 
+- orientation +
 - print 
 - @support @starting-style
 ### 属性选择器

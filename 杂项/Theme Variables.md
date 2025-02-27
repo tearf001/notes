@@ -7,11 +7,11 @@ Tailwind is a framework for building custom designs, and different designs need 
 这些样式称为低水平 `low-level` 设计决定(_design decisions_), 行业中经常称之为 _design tokens_, and in **Tailwind** projects you store those values in _theme variables_. 
 
 ## 为什么不是 `:root`？
-`ThemeVariables` 不仅仅是 _CSS变量_ , 它们还指示 Tailwind 新建可以在 HTML 中使用的`实用`类。
+`ThemeVariables` 不仅仅是 _CSS变量_ , 它们还*指示* Tailwind 可以在 HTML 中使用的`实用`类。1+1
 
 由于它们比`常规 CSS 变量`做得**更多**，因此 Tailwind 使用特殊语法，以便定义 #ThemeVariables  始终是**显式**的。_主题变量_ 也需要定义为`顶级变量`，而不是嵌套在其他选择器或媒体查询下，使用`特殊`语法可以`强制`执行这一点。
 
-使用 `：root` 定义常规 CSS 变量在 Tailwind 项目中`仍然`很有用。使用 `：root` 定义`无相应实用类类`的`常规CSS 变量`。(而 _设计令牌_ 映射到实用类类时，则使用 `@theme`)
+使用 `：root` 定义常规 CSS 变量在 Tailwind 项目中`仍然`很有用[...:var(--from-root)]。但使用 `：root` 定义`无相应实用类类`的`常规CSS 变量`。 _设计令牌_ 映射到实用类类时，使用 `@theme`
 
 ## [与实用类类的关系](https://tailwindcss.com/docs/theme#relationship-to-utility-classes)
 `静态的, 直接驱动`
