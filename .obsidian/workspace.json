@@ -4,24 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "39910ad7f72c8ce5",
+        "id": "d3ff6f9b128350e3",
         "type": "tabs",
         "children": [
           {
-            "id": "46a51801f772fdcf",
+            "id": "71420f55e02cccc6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "机器学习和数据科学的概率与统计/C3_W1_Lab_2_Birthday_Problems.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "pinned": true,
+              "icon": "lucide-list",
+              "title": "C3_W1_Lab_2_Birthday_Problems 的大纲"
+            }
+          },
+          {
+            "id": "a4a2e0f62720e57a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "c4198586b21c3453",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react-relearn/Effect rethink.md",
+                "file": "机器学习和数据科学的概率与统计/C3_W1_Lab_2_Birthday_Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Effect rethink"
+              "title": "C3_W1_Lab_2_Birthday_Problems"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ThemeVariables",
+                "query": "frc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,12 +194,27 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "46a51801f772fdcf",
+  "active": "c4198586b21c3453",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "机器学习和数据科学的概率与统计/C3_W1_Lab_2_Birthday_Problems.md",
+    "julia学习笔记/4.宏编程和元编程.md",
+    "julia学习笔记/线性代数.md",
+    "julia学习笔记/常见函数或宏实现.md",
+    "data-science/数据可视化.md",
+    "杂项/aketype 源码解析.md",
+    "Mermaid语法.md",
+    "杂项/svelte/源码.md",
+    "breakdown.md",
+    "julia学习笔记/3.设计函数与接口.md",
+    "julia学习笔记/9 其他模式.md",
+    "杂项/svelte/directives.md",
+    "杂项/svelte/样式.md",
+    "杂项/svelte/重要的共享模块及相关调用.md",
+    "react-relearn/Effect rethink.md",
     "react-relearn/为什么会渲染.md",
     "杂项/images/奇怪渲染流程图.png",
     "杂项/images/performance-track.png",
-    "react-relearn/Effect rethink.md",
     "react-relearn/ref-learn.md",
     "README.md",
     "英语口语和阅读速度提升.md",
@@ -172,15 +222,11 @@
     "杂项/自定义样式.md",
     "杂项/images/react-生命周期.png",
     "valibot.md",
-    "Mermaid语法.md",
     "杂项/Tailwindcss-核心和结构.md",
     "杂项/Tailwindcss-指令和函数.md",
     "杂项/Theme Variables.md",
     "杂项/Custom variants.md",
-    "data-science/未命名.md",
     "data-science/未命名",
-    "data-science/欢迎.md",
-    "data-science",
-    "julia学习笔记/不同的语言处理变性.md"
+    "data-science"
   ]
 }

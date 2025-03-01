@@ -16,8 +16,8 @@
               "state": {
                 "file": "HolyTraits.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": true
+                "source": true,
+                "backlinks": false
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -186,8 +186,7 @@
               "title": "11.OOP 面向对象"
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,7 +218,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "登录",
+                "query": "mermaid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -245,7 +244,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "82cefba774d11e3e",
@@ -343,11 +343,11 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "391f928d568f804d",
+  "active": "312dd12cd13cc90f",
   "lastOpenFiles": [
+    "11.OOP 面向对象.md",
     "不同的语言处理变性.md",
     "12.继承与变体.md",
-    "11.OOP 面向对象.md",
     "表达式.md",
     "技巧.md",
     "常见函数或宏实现.md",
