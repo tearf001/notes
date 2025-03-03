@@ -78,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ThemeVariables",
+                "query": "--]--",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.49999618530273
+    "width": 361.5
   },
   "right": {
     "id": "24618e1ef6a14f5f",
@@ -184,12 +184,8 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d90c18d5445ac484",
+  "active": "81e2ec071a3eca91",
   "lastOpenFiles": [
-    "svelte/重要的共享模块及相关调用.md",
-    "svelte/通过调试解读源码.md",
-    "svelte/水合.md",
-    "svelte/$state 实现.md",
     "react-relearn/ref-learn.md",
     "react-relearn/Effect rethink.md",
     "react-relearn/为什么会渲染.md",
@@ -222,7 +218,10 @@
     "react-relearn",
     "valibot.md",
     "Mermaid语法.md",
+    "杂项/Theme Variables.md",
+    "data-science/未命名.md",
     "data-science/未命名",
+    "data-science/欢迎.md",
     "数据科学"
   ]
 }
