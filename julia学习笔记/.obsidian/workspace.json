@@ -239,8 +239,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -343,7 +342,7 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "312dd12cd13cc90f",
+  "active": "082890cd7e3922ed",
   "lastOpenFiles": [
     "11.OOP 面向对象.md",
     "不同的语言处理变性.md",

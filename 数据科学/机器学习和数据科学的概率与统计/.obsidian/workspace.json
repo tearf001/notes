@@ -31,7 +31,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "output_25_0.png"
+                "file": "output_25_0.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "output_25_0 的大纲"
@@ -56,7 +59,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"

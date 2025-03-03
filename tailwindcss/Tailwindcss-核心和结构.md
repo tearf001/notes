@@ -37,7 +37,7 @@ Constrained set of Primitive Utilities
 
 当任意值重复出现时, 你应该`注册自定义变体`
 #### 注册自定义变体
-   如果相同自定义变体多次出现, 就值得创建一个 #自定义变体 #自定义变体简写形式, 背后语法见[csv指令和函数](Tailwindcss-指令和函数#@custom-variant)
+   如果相同自定义变体多次出现, 就值得创建一个 #自定义变体 #自定义变体简写形式, 背后语法见[csv指令和函数](Tailwindcss-指令和函数.md#@custom-variant)
 ```css
 @custom-variant pointer-coarse { 
 	@media (pointer: coarse) { 
