@@ -1,0 +1,34 @@
+{
+  "removeMultipleLine": true,
+  "removeJuliaReplLeading": false,
+  "replaces": {
+    "\\btest_replace\\b": "test replace successfully"
+  },
+  "replaceChars": {
+    "，": ",",
+    "。": ".",
+    "！": "!",
+    "？": "?",
+    "：": ":",
+    "；": ";",
+    "（": "(",
+    "）": ")",
+    "【": "[",
+    "】": "]",
+    "「": "[",
+    "」": "]",
+    "、": ",",
+    "　": " ",
+    "～": "~",
+    "—": "-",
+    "“": "\"",
+    "”": "\"",
+    "‘": "'",
+    "’": "'",
+    "…": "...",
+    "〈": "<",
+    "〉": ">",
+    "／": "/"
+  },
+  "juliaTypeCheck": false
+}

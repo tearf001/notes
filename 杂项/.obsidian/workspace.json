@@ -11,10 +11,14 @@
             "id": "ad23198ccf63efa3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "typescripts/typescript relearn.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "typescript relearn"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "react",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,6 +166,7 @@
   },
   "active": "ad23198ccf63efa3",
   "lastOpenFiles": [
+    "solids/开发范式.md",
     "svelte/源码.md",
     "h5 advances/框架h5抽象.md",
     "svelte/typescript.ts",
@@ -187,7 +192,6 @@
     "solids/test.spec.ts",
     "solids/solid ui choose.md",
     "solids/solidjs 动态组件.md",
-    "solids/开发范式.md",
     "kubalte.md",
     "typescripts/typescript relearn.md",
     "typescripts/Theme Variables.md",

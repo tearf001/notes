@@ -4,11 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "39910ad7f72c8ce5",
+        "id": "9b0b4dcdf95b83b1",
         "type": "tabs",
+        "dimension": 75.13966480446928,
         "children": [
           {
-            "id": "46a51801f772fdcf",
+            "id": "d90c18d5445ac484",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +20,31 @@
               },
               "icon": "lucide-file",
               "title": "Effect rethink"
-            }
+            },
+            "group": "90cc010c60b5dc93"
+          }
+        ]
+      },
+      {
+        "id": "e1ed39b1c20b0e6a",
+        "type": "tabs",
+        "dimension": 24.860335195530723,
+        "children": [
+          {
+            "id": "ba933a9bdf9e38ee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "react-relearn/Effect rethink.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Effect rethink 的大纲"
+            },
+            "group": "90cc010c60b5dc93"
           }
         ]
       }
@@ -78,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.49999618530273
+    "width": 361.49999618530273
   },
   "right": {
     "id": "24618e1ef6a14f5f",
@@ -159,28 +184,44 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "46a51801f772fdcf",
+  "active": "ba933a9bdf9e38ee",
   "lastOpenFiles": [
-    "react-relearn/为什么会渲染.md",
-    "杂项/images/奇怪渲染流程图.png",
-    "杂项/images/performance-track.png",
-    "react-relearn/Effect rethink.md",
     "react-relearn/ref-learn.md",
+    "react-relearn/Effect rethink.md",
+    "react-relearn/为什么会渲染.md",
+    "tailwindcss/Tailwindcss-核心和结构.md",
+    "typescripts/img/fun_type_extends.png",
+    "solids/test.spec.ts/component.spec.ts.md",
+    "typescripts/typescript relearn.md",
+    "typescripts/Theme Variables.md",
+    "typescripts/img/never.png",
+    "typescripts/img",
+    "react-relearn/images/performance-track.png",
+    "typescripts/img/objectandliterobject.png",
+    "tailwindcss/container.png",
+    "react-relearn/images/奇怪渲染流程图.png",
+    "杂项/valibot 源码解析.md",
+    "杂项/turboRepo.md",
+    "tailwindcss/playgourd shares.md",
+    "杂项/object schema的工作原理.md",
+    "solids/kubalte.md",
+    "tailwindcss/Custom variants.md",
+    "tailwindcss/自定义样式.md",
+    "杂项/arktype 源码解析.md",
+    "杂项/arktype-flatMorph.md",
+    "tailwindcss/Tailwindcss-指令和函数.md",
+    "react-relearn/images/react-生命周期.png",
+    "tailwindcss",
+    "svelte/样式.md",
     "README.md",
     "英语口语和阅读速度提升.md",
     "react-relearn",
-    "杂项/自定义样式.md",
-    "杂项/images/react-生命周期.png",
     "valibot.md",
     "Mermaid语法.md",
-    "杂项/Tailwindcss-核心和结构.md",
-    "杂项/Tailwindcss-指令和函数.md",
     "杂项/Theme Variables.md",
-    "杂项/Custom variants.md",
     "data-science/未命名.md",
     "data-science/未命名",
     "data-science/欢迎.md",
-    "data-science",
-    "julia学习笔记/不同的语言处理变性.md"
+    "数据科学"
   ]
 }
