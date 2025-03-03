@@ -4,63 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d7ee470e3f2a0b00",
+        "id": "ac74f4194a028d91",
         "type": "tabs",
-        "dimension": 73.66803278688525,
         "children": [
           {
-            "id": "d21d04077ca9b81b",
+            "id": "ad23198ccf63efa3",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "svelte/源码.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "源码 的大纲"
-            }
-          },
-          {
-            "id": "51a6c91228b7aa4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "svelte/源码.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "源码"
-            },
-            "group": "8978567f6f1b166a"
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "fde93191eb07f01e",
-        "type": "tabs",
-        "dimension": 26.331967213114755,
-        "children": [
-          {
-            "id": "cda85098d0fa4ad5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "svelte/源码.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "源码 的大纲"
-            },
-            "group": "8978567f6f1b166a"
+              "title": "新标签页"
+            }
           }
         ]
       }
@@ -119,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 239.49999618530273
   },
   "right": {
     "id": "956331fdddd34d87",
@@ -205,11 +160,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "51a6c91228b7aa4c",
+  "active": "ad23198ccf63efa3",
   "lastOpenFiles": [
+    "svelte/源码.md",
     "h5 advances/框架h5抽象.md",
     "svelte/typescript.ts",
-    "svelte/源码.md",
     "images/奇怪渲染流程图.png",
     "images/react-生命周期.png",
     "images/performance-track.png",
