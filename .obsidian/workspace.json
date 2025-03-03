@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/svelte/通过调试解读源码.md",
+                "file": "react-relearn/Effect rethink.md",
                 "mode": "source",
                 "source": false
               },
@@ -184,7 +184,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ba933a9bdf9e38ee",
+  "active": "d90c18d5445ac484",
   "lastOpenFiles": [
     "react-relearn/ref-learn.md",
     "react-relearn/Effect rethink.md",
