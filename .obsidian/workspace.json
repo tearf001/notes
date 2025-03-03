@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/svelte/通过调试解读源码.md",
+                "file": "react-relearn/Effect rethink.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "--]--",
+                "query": "tag:#ThemeVariables",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,8 +184,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ba933a9bdf9e38ee",
+  "active": "d90c18d5445ac484",
   "lastOpenFiles": [
+    "svelte/重要的共享模块及相关调用.md",
+    "svelte/通过调试解读源码.md",
+    "svelte/水合.md",
+    "svelte/$state 实现.md",
     "react-relearn/ref-learn.md",
     "react-relearn/Effect rethink.md",
     "react-relearn/为什么会渲染.md",
@@ -218,10 +222,7 @@
     "react-relearn",
     "valibot.md",
     "Mermaid语法.md",
-    "杂项/Theme Variables.md",
-    "data-science/未命名.md",
     "data-science/未命名",
-    "data-science/欢迎.md",
     "数据科学"
   ]
 }
