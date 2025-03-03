@@ -1,7 +1,13 @@
-开发者长文
-https://overreacted.io/a-complete-guide-to-useeffect/
+# useEffect指南
+开发者长文 https://overreacted.io/a-complete-guide-to-useeffect/
+## build mental model
+### Each Render Has Its Own Props and State
+### Each Render Has Its Own Event Handlers
+### Each Render Has Its Own Effects
+### Each Render Has Its Own… Everything
 
 **组件** render 中的每个函数（包括其中的事件处理程序、Effect、Timeout或 API 调用）都会***捕获***定义它的 render 调用的 props 和 state
+> Every function inside the component render (including event handlers, effects, timeouts or API calls inside them) ***captures*** the props and state of the render call that ***defined*** it.
 
 无论你是从 props 中读取还是在组件内部“早期”读取 state，这并不重要。***它们不会改变***在单个 render的范围内，props 和 state 保持不变。（解构 props 使这一点更加明显)
 
@@ -10,6 +16,98 @@ Kingdoms will rise and turn into ashes, the Sun will shed its outer layers to be
 
 That’s what allows React to deal with effects right ***after*** painting — and make your apps faster by default. *The old props are still there if our code needs them*.  
 这就是允许 React 在绘制后立即处理 effects 的原因——并默认让你的应用程序更快。如果我们的代码需要，旧的 props 仍然存在。
+
+### So What About Cleanup?
+The answer is clear! The effect ***cleanup*** doesn’t read the “latest” props, whatever that means. It reads props that ***belong to the render it’s defined*** in:
+### Swimming Against the Tide
+
+This is ***subtly*** different from the familiar _mount/update/unmount_ mental model. **If an *effect behaves* differently *depending* on the component *lifecycle* it’s *swimming against the tide!*** 
+
+We’re ***failing*** at ***synchronizing*** if our result depends on the *“**journey**” rather than the “**destination**”*.
+
+### Synchronization, Not Lifecycle
+React synchronizes the DOM according to our current props and state. There is no distinction between a “mount” or an “update” when rendering.
+**`useEffect` lets you _synchronize_ things *outside* of the React tree *according to* our props and state.**
+## Teaching React to Diff Your Effects
+组件渲染
+```jsx
+const oldProps = {className: 'Greeting', children: 'Hello, Dan'};
+const newProps = {className: 'Greeting', children: 'Hello, Yuzhi'};
+// 结果
+domNode.innerText = 'Hello, Yuzhi'; // No need to touch domNode.className
+```
+类似地, *avoid re-running* it when applying an effect is unnecessary.
+### 像组件一样避免重运行
+Can React just… diff effects?
+
+```tsx
+useEffect(() => { document.title = 'Hello, ' + name; });
+
+let oldEffect = () => { document.title = 'Hello, Dan'; };
+let newEffect = () => { document.title = 'Hello, Dan'; };
+// Can React see these functions do the same thing?
+```
+No. React can’t guess what the function does without calling it. (The source doesn’t really contain specific values, it just closes over the `name` prop.) why you should provide a ***dependency array*** to `useEffect`
+**“Hey, I know you can’t see _inside_ this function, but I promise it only uses `name`  from the render scope.”**
+现在的情况:
+```js
+const oldEffect = () => { document.title = 'Hello, Dan'; };
+const oldDeps = ['Dan'];
+ 
+const newEffect = () => { document.title = 'Hello, Dan'; }; // NEW fun but old thing! And react cant peek inside of it
+const newDeps = ['Dan']; // compare it to old deps, it IS same! it doesn’t need to run the NEW effect.
+```
+### What Happens When Dependencies Lie
+useEffect 改变title的这种情况下，问题可能看起来很明显。但是在其他情况下，直觉可能会欺骗你，因a class 解决方案会从你的记忆中“跳出来”。看这个例子
+```tsx
+function Counter() {
+  const [count, setCount] = useState(0); 
+  useEffect(() => {
+    const id = setInterval(() => {
+      setCount(count + 1);
+    }, 1000);
+    return () => clearInterval(id);
+  }, []);
+ 
+  return <h1>{count}</h1>;
+}
+```
+如果你的思维模式是“依赖关系让我指定何时重新触发效果”，这个例子可能会给你带来存在危机。你想触发一次，因为它是一个间隔
+**Since we *never* re-run the effect because of `[]` deps, it will *keep calling* `setCount(0 + 1)` *every second***
+```tsx
+// First render, state is 0
+function Counter() {
+  useEffect(
+    // Effect from first render
+    () => {
+      const id = setInterval(() => {
+        setCount(0 + 1); // Always setCount(1)
+      }, 1000);
+      return () => clearInterval(id);
+    }, [] /* Never re-runs */);
+} 
+// Every next render, state is 1
+function Counter() {
+  useEffect(
+    // This effect is always ignored because we lied to React about EMPTY deps.
+    () => {
+      const id = setInterval(() => {
+        setCount(1 + 1);
+      }, 1000);
+      return () => clearInterval(id);
+    }, []);
+}
+```
+从这个例子可以看出: We lied to React by saying our effect ***doesn’t depend*** on a value from ***inside*** our component, when ***in fact it does***!
+### Two Ways to Be Honest About Dependencies
+#### LINTER 规则
+**The dependency array includes _all_ the values *inside* the component that are *used* inside the effect.**
+#### Change our effect to have _fewer_ of them. 
+**The second strategy is to change our effect code so that it wouldn’t _need_ a value that changes more often than we want.** 
+##### 仅将 effect 内部的最小必要信息发送到组件中
+##### 对 _intent_ 而不是结果进行编码
+##### 有一个更强大的姊妹模式。它的名字是 `useReducer`。
+## 将更新与 Action 分离
 
 官方文档
 #  [生命周期](https://zh-hans.react.dev/learn/lifecycle-of-reactive-effects#the-lifecycle-of-an-effect)
