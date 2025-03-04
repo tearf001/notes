@@ -8,3 +8,4 @@ node_modules/
 *.log
 *.secret
 secret.*
+.obsidian/workspaces.json
