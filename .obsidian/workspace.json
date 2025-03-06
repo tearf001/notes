@@ -6,7 +6,6 @@
       {
         "id": "9b0b4dcdf95b83b1",
         "type": "tabs",
-        "dimension": 71.85792349726776,
         "children": [
           {
             "id": "d90c18d5445ac484",
@@ -14,37 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MSYS2.md",
+                "file": "svelte/svelte 测试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MSYS2"
+              "title": "svelte 测试"
             }
-          }
-        ]
-      },
-      {
-        "id": "7874157c780a992a",
-        "type": "tabs",
-        "dimension": 28.142076502732237,
-        "children": [
+          },
           {
-            "id": "090a92860de03988",
+            "id": "4ae2fcd27a19a2b1",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "markdown",
               "state": {
-                "file": "MSYS2.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "正则表达式.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-list",
-              "title": "MSYS2 的大纲"
+              "icon": "lucide-file",
+              "title": "正则表达式"
+            }
+          },
+          {
+            "id": "19a46362b7ec3d54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "杂项/FFmpeg.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FFmpeg"
+            }
+          },
+          {
+            "id": "b9dbcb7f14ededa2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "杂项/object schema的工作原理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "object schema的工作原理"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -76,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pnpm test",
+                "query": "tag:#ThemeVariables",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 361.49999618530273
   },
   "right": {
     "id": "24618e1ef6a14f5f",
@@ -160,17 +180,22 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "杂项/FFmpeg.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "FFmpeg 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,18 +205,25 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
       "terminal:Open terminal": false
     }
   },
-  "active": "d90c18d5445ac484",
+  "active": "19a46362b7ec3d54",
   "lastOpenFiles": [
-    "MSVC.png",
     "MSYS2.md",
+    "MSVC.png",
+    "杂项/object schema的工作原理.md",
+    "杂项/FFmpeg.md",
     "svelte/源码.md",
-    "svelte/svelte 测试.md",
     "正则表达式.md",
-    "react-relearn/Effect rethink.md",
     "加解密.md",
+    "svelte/svelte 测试.md",
+    "react-relearn/Effect rethink.md",
+    "svelte/重要的共享模块及相关调用.md",
+    "svelte/通过调试解读源码.md",
+    "svelte/水合.md",
+    "svelte/$state 实现.md",
     "react-relearn/ref-learn.md",
     "react-relearn/为什么会渲染.md",
     "tailwindcss/Tailwindcss-核心和结构.md",
@@ -208,18 +240,13 @@
     "杂项/valibot 源码解析.md",
     "杂项/turboRepo.md",
     "tailwindcss/playgourd shares.md",
-    "杂项/object schema的工作原理.md",
     "solids/kubalte.md",
     "tailwindcss/Custom variants.md",
     "tailwindcss/自定义样式.md",
     "杂项/arktype 源码解析.md",
     "杂项/arktype-flatMorph.md",
-    "tailwindcss/Tailwindcss-指令和函数.md",
     "react-relearn/images/react-生命周期.png",
     "tailwindcss",
-    "svelte/样式.md",
-    "README.md",
-    "英语口语和阅读速度提升.md",
     "react-relearn",
     "data-science/未命名",
     "数据科学"
