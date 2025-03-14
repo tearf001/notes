@@ -71,9 +71,9 @@ node-gyp 在安装或构建原生模块时，会尝试自动检测系统上已�
 - **查看错误日志：** 如果 node-gyp 仍然无法使用 MinGW64，仔细查看错误日志，它通常会提供有关问题的更多信息。
 
 # MSYS2 在 windows平台的意义
-它是作为子系统那样存在吗? **MSYS2 的核心目标：提供一个类 Unix 环境**
+它是作为子系统那样存在吗? **MSYS2 的核心目标：提供一个*类 Unix 环境***
 
-MSYS2 的主要目的是在 Windows 上创建一个类似于 Unix/Linux 的开发环境，让你能够在 Windows 上使用许多在 Linux 上常见的开发工具和 shell 命令（如 bash, gcc, make, git, vim 等），而无需安装完整的虚拟机或使用 WSL (Windows Subsystem for Linux)。
+MSYS2 的主要目的是在 Windows 上创建一个类似于 Unix/Linux 的开发环境，让你能够在 Windows 上使用许多在 Linux 上常见的开发工具和 shell 命令（如 bash, gcc, make, git, vim 等），而*无需安装完整*的虚拟机或使用 ***WSL*** (Windows Subsystem for Linux)。
 
 ## **MSYS2 的组成部分：**
 
