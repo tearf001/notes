@@ -1,5 +1,5 @@
 {
-  "removeMultipleLine": true,
+  "removeMultipleLine": false,
   "removeJuliaReplLeading": false,
   "replaces": {
     "\\btest_replace\\b": "test replace successfully"

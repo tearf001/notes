@@ -1,5 +1,6 @@
 [
   "obsidian-plantuml",
   "replace-fullwidth-to-halfwidth",
-  "terminal"
+  "terminal",
+  "mermaid-tools"
 ]
