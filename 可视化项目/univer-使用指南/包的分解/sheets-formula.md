@@ -6,6 +6,8 @@
 依赖于
 ```c
 dependencies:
-@univerjs/core: 0.6.9           @univerjs/rpc: 0.6.9
-@univerjs/engine-formula: 0.6.9 @univerjs/sheets: 0.6.9
+@univerjs/core: 0.6.9           
+@univerjs/rpc: 0.6.9
+@univerjs/engine-formula: 0.6.9
+@univerjs/sheets: 0.6.9
 ```
